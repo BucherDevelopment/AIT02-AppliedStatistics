@@ -26,7 +26,7 @@ def simulate_clt():
 
         # 3. Plotten des Histogramms
         plt.subplot(3, 3, i+1)
-        plt.hist(sn_values, bins=6, density=True, alpha=0.6, color='skyblue', label=f'n={n}')
+        plt.hist(sn_values, bins=30, density=True, alpha=0.6, color='skyblue', label=f'n={n}')
         
         # 4. Overlay der Standardnormalverteilung N(0,1)
         x = np.linspace(-4, 4, 100)
