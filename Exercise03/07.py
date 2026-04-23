@@ -26,7 +26,7 @@ def simulate_coin_tosses(n_simulations=100_000):
     return 0
 
 # Ausführung
-n = 10000
+n = 100000
 result = simulate_coin_tosses(n)
 
 print(f"Simulation mit {n} Durchläufen:")
